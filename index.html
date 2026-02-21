@@ -1,15 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primer proyecto</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/dragon.svg" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dragon Ink Studio | Home</title>
+  <meta name="description" content="Estudio de tatuajes Dragon Ink Studio: diseños personalizados, blackwork y realismo con alma de dragón." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/dragon.svg" type="image/x-icon" />
 </head>
 <body>
-    <h1>Hola mundo</h1>
-    <img class="imgPortada" src="img/dragon.svg" alt="Hola Mundo" title="dragon">
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="index.html" class="brand" aria-label="Ir a inicio">
+        <img src="img/dragon.svg" alt="Logo Dragon Ink Studio" />
+        <div>
+          <strong>Dragon Ink</strong>
+          <span>Tattoo Studio</span>
+        </div>
+      </a>
 
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-button" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Principal">
+        <a class="active" href="index.html">Home</a>
+        <a href="producto.html">Producto</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Arte que ruge en tu piel</p>
+          <h1>Tatuajes con identidad, fuerza y detalle</h1>
+          <p>
+            En Dragon Ink Studio convertimos ideas en piezas únicas. Trabajamos diseños
+            personalizados inspirados en el simbolismo del dragón: poder, disciplina y transformación.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contacto.html">Reservar cita</a>
+            <a class="btn btn-ghost" href="producto.html">Ver servicios</a>
+          </div>
+        </div>
+
+        <figure class="hero-art">
+          <img src="img/dragon.svg" alt="Ilustración principal de dragón" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Por qué elegirnos</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Diseño exclusivo</h3>
+            <p>Cada tatuaje nace desde cero contigo, respetando tu estilo y anatomía.</p>
+          </article>
+          <article class="card">
+            <h3>Higiene profesional</h3>
+            <p>Protocolos estrictos, material estéril y estaciones seguras en cada sesión.</p>
+          </article>
+          <article class="card">
+            <h3>Acabado premium</h3>
+            <p>Líneas limpias, sombras precisas y acompañamiento completo de aftercare.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

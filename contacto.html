@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dragon Ink Studio | Contacto</title>
+  <meta name="description" content="Contacta Dragon Ink Studio para cotizar y reservar tu tatuaje." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/dragon.svg" type="image/x-icon" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="index.html" class="brand" aria-label="Ir a inicio">
+        <img src="img/dragon.svg" alt="Logo Dragon Ink Studio" />
+        <div>
+          <strong>Dragon Ink</strong>
+          <span>Tattoo Studio</span>
+        </div>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-button" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Principal">
+        <a href="index.html">Home</a>
+        <a href="producto.html">Producto</a>
+        <a class="active" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-compact">
+      <div class="container contact-layout">
+        <div>
+          <h1 class="page-title">Hablemos de tu próximo tatuaje</h1>
+          <p class="page-subtitle">
+            Cuéntanos tu idea y te ayudamos a convertirla en una pieza con estilo único.
+          </p>
+          <div class="contact-list">
+            <a href="mailto:info@dragoninkstudio.com">info@dragoninkstudio.com</a>
+            <a href="tel:+573000000000">+57 300 000 0000</a>
+            <p>Lun - Sáb: 10:00 AM - 8:00 PM</p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" placeholder="Tu nombre" required />
+
+          <label for="email">Correo</label>
+          <input id="email" type="email" placeholder="tucorreo@email.com" required />
+
+          <label for="idea">Idea de tatuaje</label>
+          <textarea id="idea" rows="4" placeholder="Describe tu diseño, tamaño y zona del cuerpo" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
