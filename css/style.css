@@ -21,19 +21,8 @@ h1{
     @media only screen and (min-width: 800px){
         font-size: 4rem;
     }
-    
-    @media only screen and (min-width: 1200px)
-    {
-       
-        font-size: 6rem;
-        .imgPortada{
-            width: 50%;
-            max-width: 500px;
-        }
-        .imgPortada{
-            width: 100px;
-            max-width: 500px;
-        }
+  
+    @media only screen and (min-width: 1200px){
+        font-size: 6rem;   
     }
-
 }
