@@ -26,3 +26,9 @@ h1{
         font-size: 6rem;   
     }
 }
+
+
+.imgPortada{
+    width: 50%;
+    max-width: 500px;
+}
